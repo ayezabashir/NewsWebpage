@@ -4,7 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>News Reports</title>
+    <link rel="icon" type="image/svg" href="./assets/images/icon.svg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+    ></script>
+    <script defer src="assets/js/index.js"></script>
   </head>
-  <body></body>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="navbar container">
+        <a href="./index.html">
+          <h2 class="logo">NewsUpdate</h2>
+        </a>
+        <div class="menu" id="menu">
+          <ul class="list">
+            <li class="list-item">
+              <a href="#" class="list-link current">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Categories</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Reviews</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">News</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Membership</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Contact</a>
+            </li>
+            <li class="list-item screen-lg-hidden">
+              <a href="#" class="list-link">Sign in</a>
+            </li>
+            <li class="list-item screen-lg-hidden">
+              <a href="#" class="list-link">Sign up</a>
+            </li>
+          </ul>
+        </div>
+        <div class="list list-right">
+          <button class="btn place-items-center" id="theme-toggle-btn">
+            <i class="ri-sun-line sun-icon"></i>
+            <i class="ri-moon-line moon-icon"></i>
+          </button>
+          <button class="btn place-items-center" id="search-icon">
+            <i class="ri-search-line"></i>
+          </button>
+          <button
+            class="btn place-items-center screen-lg-hidden menu-toggle-icon"
+            id="menu-toggle-icon"
+          >
+            <i class="ri-menu-3-fill open-menu-icon"></i>
+            <i class="ri-close-line close-menu-icon"></i>
+          </button>
+
+          <a href="#" class="list-link screen-sm-hidden">sign in</a>
+          <a
+            href="#"
+            class="list-link screen-sm-hidden btn sign-up-btn fancy-border"
+          >
+            <span>sign up</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>
