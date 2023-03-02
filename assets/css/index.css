@@ -620,3 +620,20 @@ body.light-theme {
   text-transform: uppercase;
   margin-bottom: var(--margin-sm);
 }
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3f4254;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2e3036;
+}
