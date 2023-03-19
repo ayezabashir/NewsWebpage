@@ -18,10 +18,10 @@
   --transparent-dark-color: rgba(0, 0, 0, 0.75);
   --font-family: "Poppins", sans-serif;
   --font-size-xsm: 1.2rem;
-  --font-size-sm: 1.6rem;
-  --font-size-md: 2.4rem;
-  --font-size-lg: 3rem;
-  --font-size-xl: 4rem;
+    --font-size-sm: 1rem;
+    --font-size-md: 2rem;
+    --font-size-lg: 2.5rem;
+    --font-size-xl: 3rem;
   --gap: 2rem;
   --margin-sm: 2rem;
   --margin-md: 3rem;
@@ -816,11 +816,11 @@ body.light-theme {
     }
   }
   .featured-articles-container {
-    grid-template-columns: 1fr 40rem;
+    grid-template-columns: 1fr 30rem;
   }
   .trending-news-image-box {
-    width: 10rem;
-    height: 10rem;
+    width: 13rem;
+    height: 7rem;
   }
   .popular-tags-container {
     grid-template-columns: repeat(3, 1fr);
